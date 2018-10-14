@@ -1,0 +1,75 @@
+html,body{
+    font-size: 10px;
+}
+img{
+    vertical-align: middle;
+}
+
+/* 布局 */
+.flex{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-r{
+    flex-direction: row;
+}
+.flex-c{
+    flex-direction: column;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.dsn{
+    display: none;
+}
+[v-cloak] {
+    display: none;
+}
+
+/* 基本样式 */
+.text-hide{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.font-size12{
+    font-size: 1.2rem;
+}
+.font-size13{
+    font-size: 1.3rem;
+}
+.font-size14{
+    font-size: 1.4rem;
+}
+.font-size15{
+    font-size: 1.5rem;
+}
+.font-size16{
+    font-size: 1.6rem;
+}
+.color-808080{
+    color: #808080;
+}
+.color-666666{
+    color: #666666;
+}
+
+.line-height2{
+    line-height: 2rem;
+}
+.line-hright3{
+    line-height: 3rem;
+}
+.line-height4{
+    line-height: 4rem;
+}
+
+.text-r{
+    text-align: right;
+}
+.text-l{
+    text-align: left;
+}
